@@ -1,0 +1,16 @@
+.card-item{
+    max-width: 15rem;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: $shadow;
+    background-color: $white-element-clr;
+    color: $very-dark-blue-txt-clr;
+
+    img{
+        display: block;
+        object-fit: cover;
+    }
+    .card-item-infos{
+        padding: 15px;
+    }
+}

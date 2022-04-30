@@ -31,6 +31,12 @@ $mb-2: 2rem;
 $mb-2-5: 2.5rem;
 $mb-3: 3rem;
 
+//MIXINS
+@mixin flex-center () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 //BASE 
 *{
@@ -44,6 +50,14 @@ html{
 a{ text-decoration: none;}
 li{ 
     list-style: none;
+}
+button, input, select{
+    outline: none;
+    border: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 body{
     min-height: 100vh;
