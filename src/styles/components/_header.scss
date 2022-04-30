@@ -1,0 +1,34 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: $very-light-gray-body-clr;
+    box-shadow: $shadow;
+    
+    .nav{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__logo{
+            font-size: $title-f-size;
+            font-weight: $font-w-extra-bold;
+        }
+        .darkMode{
+            display: flex;
+            color: $very-dark-blue-txt-clr;
+            .logo-moon{
+                margin-right: $mb-0-5;
+            }
+            .logo-moon, h3{
+                font-size: $title2-f-size;
+                font-weight: $font-w-semi-bold;
+                cursor: pointer;
+            }
+
+        }
+    }
+}

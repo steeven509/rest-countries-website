@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+//========= VARIABLES SASS
+// Colors
+$very-dark-blue-txt-clr: hsl(200, 15%, 8%);
+$dark-gray-input-clr: hsl(0, 0%, 52%);
+$very-light-gray-body-clr: hsl(0, 0%, 98%);
+$white-element-clr: hsl(0, 0%, 100%);
+$shadow: 0 -1px 10px rgba(0,0,0,.15);
+
+//Font Family
+$body-ff: 'Nunito Sans', sans-serif;
+
+//Font Size 
+$home-item-f-size: .875rem;
+$infos-page-f-size: 1rem;
+$title2-f-size: 1rem;
+$title-f-size: 1.5rem;
+
+// Font Weight
+$font-w-light: 300;
+$font-w-semi-bold: 600;
+$font-w-extra-bold: 800;
+
+// Margenes Bottom 
+$mb-0-5: .5rem;
+$mb-0-75: .75rem;
+$mb-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+$mb-2-5: 2.5rem;
+$mb-3: 3rem;
+
+
+//BASE 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{ text-decoration: none;}
+li{ 
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+    background-color: $very-light-gray-body-clr;
+    color: $very-dark-blue-txt-clr;
+    font-family: $body-ff;
+}
